@@ -4,7 +4,7 @@
 	"authors": ["Notex"],
 	"contentFolder": "content",
 	"packagedefinition": [],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"updateCheck": "https://framework.notex.app/updates/HM3RestoreSapienzaNPCs.json",
 	"frameworkVersion": "1.0.0"
 }
