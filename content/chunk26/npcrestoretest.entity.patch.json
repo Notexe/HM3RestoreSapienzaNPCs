@@ -1,0 +1,1252 @@
+{
+    "tempHash": "002F6CE381654804",
+    "tbluHash": "008E45C23E228499",
+    "patch": [
+        {
+            "op": "add",
+            "path": "/entities/6f58e3b2a254d617",
+            "value": {
+                "parent": {
+                    "ref": "1506303987018620",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "ItemSpawner_Cup",
+                "template": "[modules:/zitemspawner.class].pc_entitytype",
+                "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_ePhysicsMode",
+                        "type": "ZItemSpawner.EPhysicsMode",
+                        "value": "EPM_KINEMATIC"
+                    },
+                    {
+                        "name": "m_eRoomBehaviour",
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    {
+                        "name": "m_mTransform",
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            }
+                        }
+                    },
+                    {
+                        "name": "m_bUsePlacementAttach",
+                        "type": "bool",
+                        "value": false
+                    }
+                ],
+                "postInitProperties": [
+                    {
+                        "name": "m_eidParent",
+                        "type": "SEntityTemplateReference",
+                        "value": {
+                            "ref": "6ab6a963c7097cc3",
+                            "entityID": "ffffffffffffffff",
+                            "externalScene": "SPECIAL: None",
+                            "exposedEntity": "Spatial_Cup"
+                        }
+                    },
+                    {
+                        "name": "m_rMainItemKey",
+                        "type": "SEntityTemplateReference",
+                        "value": "138683a5c5912460"
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "6f58e3b2a254d617"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/5c70f88d0e645d80",
+            "value": {
+                "parent": {
+                    "ref": "1506303987018620",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Cafe_Chair_Italy_D_01",
+                "template": "[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_italy_a.template?/cafe_chair_italy_d_01.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_italy_a.template?/cafe_chair_italy_d_01.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_mTransform",
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            }
+                        }
+                    }
+                ],
+                "postInitProperties": [
+                    {
+                        "name": "m_eidParent",
+                        "type": "SEntityTemplateReference",
+                        "value": {
+                            "ref": "6ab6a963c7097cc3",
+                            "entityID": "ffffffffffffffff",
+                            "externalScene": "SPECIAL: None",
+                            "exposedEntity": "Spatial_ChairPosition"
+                        }
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "5c70f88d0e645d80"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/53ab14a367df74be",
+            "value": {
+                "parent": {
+                    "ref": "812ad3a20e791ba4",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Prof_Sapienza_Guard_BodyGuard",
+                "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_bodyguard.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_bodyguard.entitytemplate].pc_entityblueprint",
+                "properties": [],
+                "postInitProperties": [],
+                "platformSpecificPropertyValues": [],
+                "entityID": "53ab14a367df74be"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/a17d9f555e091c1b",
+            "value": {
+                "parent": {
+                    "ref": "51e8c763d265f6fe",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "CHAR_Guard_Bodyguard_Suit34",
+                "template": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_mTransform",
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": -35.520469665527344,
+                                "y": 9.5129098892211914,
+                                "z": 9.3486576080322266
+                            }
+                        }
+                    },
+                    {
+                        "name": "m_bStartEnabled",
+                        "type": "bool",
+                        "value": true
+                    },
+                    {
+                        "name": "m_sActorName",
+                        "type": "ZString",
+                        "value": "Claudio Pico"
+                    },
+                    {
+                        "name": "RepositoryId",
+                        "type": "ZGuid",
+                        "value": "d5f9c8e5-96ed-4a55-97d9-0b1bc10d1e82"
+                    },
+                    {
+                        "name": "m_OutfitRepositoryID",
+                        "type": "ZGuid",
+                        "value": "bf9629e0-f25c-4e71-9561-4a99a93a43e8"
+                    },
+                    {
+                        "name": "m_nOutfitVariation",
+                        "type": "int32",
+                        "value": 3
+                    }
+                ],
+                "postInitProperties": [
+                    {
+                        "name": "m_aEnforcedOutfits",
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "4c5ff254e8d3b99f"
+                        ]
+                    },
+                    {
+                        "name": "m_eidParent",
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "a17d9f555e091c1b"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/41f9ecc8c1c9c92a",
+            "value": {
+                "parent": {
+                    "ref": "1506303987018620",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Screenplay",
+                "template": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+                "properties": [],
+                "postInitProperties": [
+                    {
+                        "name": "Roles",
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "d05848770c44f00d"
+                        ]
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "41f9ecc8c1c9c92a",
+                "events": [
+                    {
+                        "onEvent": "OnStart",
+                        "shouldTrigger": "Start",
+                        "onEntity": "6ab6a963c7097cc3"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/4c5ff254e8d3b99f",
+            "value": {
+                "parent": {
+                    "ref": "a17d9f555e091c1b",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Prof_Sapienza_Guard_BodyGuard",
+                "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_bodyguard.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_bodyguard.entitytemplate].pc_entityblueprint",
+                "properties": [],
+                "postInitProperties": [],
+                "platformSpecificPropertyValues": [],
+                "entityID": "4c5ff254e8d3b99f"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/7f716d234ba942bf",
+            "value": {
+                "parent": {
+                    "ref": "51e8c763d265f6fe",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "CHAR_Guard_Bodyguard_Suit33",
+                "template": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_mTransform",
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": -34.255290985107422,
+                                "y": 9.1495571136474609,
+                                "z": 9.3486576080322266
+                            }
+                        }
+                    },
+                    {
+                        "name": "m_bStartEnabled",
+                        "type": "bool",
+                        "value": true
+                    },
+                    {
+                        "name": "m_sActorName",
+                        "type": "ZString",
+                        "value": "Daniel Samper"
+                    },
+                    {
+                        "name": "RepositoryId",
+                        "type": "ZGuid",
+                        "value": "92c194c5-6729-432a-9612-53eff2352342"
+                    },
+                    {
+                        "name": "m_OutfitRepositoryID",
+                        "type": "ZGuid",
+                        "value": "bf9629e0-f25c-4e71-9561-4a99a93a43e8"
+                    },
+                    {
+                        "name": "m_nOutfitVariation",
+                        "type": "int32",
+                        "value": 4
+                    }
+                ],
+                "postInitProperties": [
+                    {
+                        "name": "m_aEnforcedOutfits",
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "ced721ba888a7c1f"
+                        ]
+                    },
+                    {
+                        "name": "m_eidParent",
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "7f716d234ba942bf"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/d05848770c44f00d",
+            "value": {
+                "parent": {
+                    "ref": "1506303987018620",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Role",
+                "template": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_aActors",
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "7f716d234ba942bf"
+                        ]
+                    }
+                ],
+                "postInitProperties": [],
+                "platformSpecificPropertyValues": [],
+                "entityID": "d05848770c44f00d"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/6ab6a963c7097cc3",
+            "value": {
+                "parent": {
+                    "ref": "1506303987018620",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Act_MR_Sit_Chair_Table_DrinkCoffee_Enter_B_L",
+                "template": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_sit_chair_table_drinkcoffee_enter_b_l.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_sit_chair_table_drinkcoffee_enter_b_l.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_mTransform",
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -143.99611465698285
+                            },
+                            "position": {
+                                "x": -33.719310760498047,
+                                "y": 8.3977327346801758,
+                                "z": 9.3486566543579102
+                            }
+                        }
+                    },
+                    {
+                        "name": "m_fActTimeout",
+                        "type": "float32",
+                        "value": -1
+                    },
+                    {
+                        "name": "m_bValueshouldconsume",
+                        "type": "bool",
+                        "value": false
+                    }
+                ],
+                "postInitProperties": [
+                    {
+                        "name": "m_pActor",
+                        "type": "SEntityTemplateReference",
+                        "value": "d05848770c44f00d"
+                    },
+                    {
+                        "name": "m_rChair",
+                        "type": "SEntityTemplateReference",
+                        "value": "5c70f88d0e645d80"
+                    },
+                    {
+                        "name": "m_eidParent",
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "6ab6a963c7097cc3"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/1506303987018620",
+            "value": {
+                "parent": {
+                    "ref": "51e8c763d265f6fe",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "DramaSituationDrinkCoffee",
+                "template": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_rDrama",
+                        "type": "SEntityTemplateReference",
+                        "value": "41f9ecc8c1c9c92a"
+                    },
+                    {
+                        "name": "m_aActors",
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "7f716d234ba942bf"
+                        ]
+                    }
+                ],
+                "postInitProperties": [],
+                "platformSpecificPropertyValues": [],
+                "propertyAliases": [
+                    {
+                        "sAliasName": "m_aActors",
+                        "entityID": "d05848770c44f00d",
+                        "sPropertyName": "m_aActors"
+                    }
+                ],
+                "entityID": "1506303987018620"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/812ad3a20e791ba4",
+            "value": {
+                "parent": {
+                    "ref": "51e8c763d265f6fe",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "CHAR_Guard_Bodyguard_Suit36",
+                "template": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_mTransform",
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": -33.989990234375,
+                                "y": 8.5604915618896484,
+                                "z": 9.3486576080322266
+                            }
+                        }
+                    },
+                    {
+                        "name": "m_bStartEnabled",
+                        "type": "bool",
+                        "value": true
+                    },
+                    {
+                        "name": "m_sActorName",
+                        "type": "ZString",
+                        "value": "Jordi Bravo"
+                    },
+                    {
+                        "name": "m_aEnforcedOutfits",
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "53ab14a367df74be"
+                        ]
+                    },
+                    {
+                        "name": "RepositoryId",
+                        "type": "ZGuid",
+                        "value": "2666eafe-dd56-447f-9ca0-937523d6e536"
+                    },
+                    {
+                        "name": "m_OutfitRepositoryID",
+                        "type": "ZGuid",
+                        "value": "bf9629e0-f25c-4e71-9561-4a99a93a43e8"
+                    },
+                    {
+                        "name": "m_nOutfitVariation",
+                        "type": "int32",
+                        "value": 9
+                    }
+                ],
+                "postInitProperties": [
+                    {
+                        "name": "m_eidParent",
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                ],
+                "platformSpecificPropertyValues": [],
+                "entityID": "812ad3a20e791ba4"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/ced721ba888a7c1f",
+            "value": {
+                "parent": {
+                    "ref": "7f716d234ba942bf",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "Prof_Sapienza_Guard_BodyGuard",
+                "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_bodyguard.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_bodyguard.entitytemplate].pc_entityblueprint",
+                "properties": [],
+                "postInitProperties": [],
+                "platformSpecificPropertyValues": [],
+                "entityID": "ced721ba888a7c1f"
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/138683a5c5912460",
+            "value": {
+                "parent": {
+                    "ref": "1506303987018620",
+                    "exposedEntity": "",
+                    "externalScene": "SPECIAL: None",
+                    "entityID": "ffffffffffffffff"
+                },
+                "name": "ItemKey_Poisonable_CoffeCup",
+                "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+                "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+                "properties": [
+                    {
+                        "name": "m_RepositoryId",
+                        "type": "ZGuid",
+                        "value": "4f2f4e60-d7f0-407b-b624-de880f9e3015"
+                    }
+                ],
+                "postInitProperties": [],
+                "platformSpecificPropertyValues": [],
+                "entityID": "138683a5c5912460"
+            }
+        },
+        {
+            "op": "remove",
+            "path": "/entities/36bcfd934f877004/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/4c84df73564ec845/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/4c84df73564ec845/properties/0/value/position/x",
+            "value": "LN|-59.591899871826172"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/d29c6bb54f469ea0/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/9d87fd5c3a2f12f9/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/9d98fa8534745ded/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/4c7c1785884f24ce/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/b90fa83cdd673c2c/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/ad20ebe537e57e8d/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/c54aeff4d11b94fc/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/9c2ea90e06bf607c/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/187c0ff596508a63/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/4c80b0204516344/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/4c80b0204516344/properties/0/value/position/x",
+            "value": "LN|-59.170059204101562"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/410f7af1d45d41fe/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/410f7af1d45d41fe/properties/0/value/position/x",
+            "value": "LN|-25.629510879516602"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/815ea1305c59810a/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/38302f86e319c691/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/38302f86e319c691/properties/0/value/position/x",
+            "value": "LN|-35.858139038085938"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/38302f86e319c691/properties/0/value/position/z",
+            "value": "LN|9.3486652374267578"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/a2bc83701596b919/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/a2bc83701596b919/properties/0/value/position/x",
+            "value": "LN|-50.201740264892578"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/a2bc83701596b919/properties/0/value/position/y",
+            "value": "LN|4.7458739280700684"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/a2bc83701596b919/properties/0/value/position/z",
+            "value": "LN|6.9486417770385742"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/a2bc83701596b919/properties/1"
+        },
+        {
+            "op": "add",
+            "path": "/entities/a2bc83701596b919/postInitProperties/0",
+            "value": {
+                "name": "m_pActor",
+                "type": "SEntityTemplateReference",
+                "value": "36bcfd934f877004"
+            }
+        },
+        {
+            "op": "remove",
+            "path": "/entities/40ad64dfe926bc53/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/40ad64dfe926bc53/properties/0/value/position/x",
+            "value": "LN|-60.746799468994141"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/40ad64dfe926bc53/properties/0/value/position/z",
+            "value": "LN|8.3988971710205078"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/40ad64dfe926bc53/properties/1/value/x",
+            "value": "LN|24.941299438476562"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/8ebbbee35d60fea/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/b18976677a5309b7/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/9b3d2d8b765da1ba/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/9b3d2d8b765da1ba/properties/0/value/position/z",
+            "value": "LN|9.3486566543579102"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/e34468f73799f6c1/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/e34468f73799f6c1/properties/0/value/position/x",
+            "value": "LN|-54.357250213623047"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/e34468f73799f6c1/properties/0/value/position/y",
+            "value": "LN|7.2783298492431641"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/c15e5aa85033b46c/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/c15e5aa85033b46c/properties/0/value/position/z",
+            "value": "LN|9.3486576080322266"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/4eba3b5baf69abdf/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/417a792030bbe037/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/25fc81e43ee70093/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/25fc81e43ee70093/properties/0/value/position/x",
+            "value": "LN|-32.708148956298828"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/3b70d39cc75a6be2/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/53cf756881a9724/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/53cf756881a9724/properties/0/value/position/x",
+            "value": "LN|-29.392410278320312"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/53cf756881a9724/properties/0/value/position/y",
+            "value": "LN|-9.3564071655273438"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/53cf756881a9724/properties/0/value/position/z",
+            "value": "LN|9.3486652374267578"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/c90661ba272f4643/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/e18a4d810f2ca799/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/e18a4d810f2ca799/properties/0/value/position/y",
+            "value": "LN|8.6146888732910156"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/e18a4d810f2ca799/properties/0/value/position/z",
+            "value": "LN|6.9525480270385742"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/6174f1d7e5fcc8a1/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/5bf107c2b36aa8e8/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/b5f3ce887462f996/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/eeb9d2e38a357ad0/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/94d28860d8c3f898/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/74e8ff503b5245b6/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/dff71d1528c0361f/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/195f2663501f3059/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/7347ab20535fba80/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/60fb7f81e4cad237/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/60fb7f81e4cad237/properties/0/value/position/y",
+            "value": "LN|15.200869560241699"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/54d8560cf55841/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/54d8560cf55841/properties/0/value/position/z",
+            "value": "LN|9.3486576080322266"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/d186e9a09fb4176e/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/fcd56221a33a6194/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/fcd56221a33a6194/properties/0/value/position/x",
+            "value": "LN|-53.475879669189453"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/fcd56221a33a6194/properties/0/value/position/y",
+            "value": "LN|8.6203584671020508"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/fcd56221a33a6194/properties/0/value/position/z",
+            "value": "LN|6.9525480270385742"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/84a5e870cff91f8/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/84a5e870cff91f8/properties/0/value/position/x",
+            "value": "LN|-62.483261108398438"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/84a5e870cff91f8/properties/0/value/position/y",
+            "value": "LN|8.5071792602539062"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/84a5e870cff91f8/properties/0/value/position/z",
+            "value": "LN|6.9525480270385742"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/84a5e870cff91f8/properties/1"
+        },
+        {
+            "op": "add",
+            "path": "/entities/84a5e870cff91f8/postInitProperties/0",
+            "value": {
+                "name": "m_pActor",
+                "type": "SEntityTemplateReference",
+                "value": "c54aeff4d11b94fc"
+            }
+        },
+        {
+            "op": "remove",
+            "path": "/entities/12239f2ec29e7f66/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/592ce0ddfecb0694/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/2b215ed5238de44e/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/df7328d121270091/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/df7328d121270091/properties/0/value/position/x",
+            "value": "LN|-34.971691131591797"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/df7328d121270091/properties/0/value/position/z",
+            "value": "LN|9.3486566543579102"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/51e8c763d265f6fe/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/d3ba5ac481a7986/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/d3ba5ac481a7986/properties/0/value/position/x",
+            "value": "LN|-33.264858245849609"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/d3ba5ac481a7986/properties/0/value/position/z",
+            "value": "LN|9.3489151000976562"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/835cd5e7978a24a9/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/108acaf9ef495ab9/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/8efbb95514a2314f/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/4bff4a24be747692/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/4bff4a24be747692/properties/0/value/position/z",
+            "value": "LN|9.3486652374267578"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/274f945e6a8d2703/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/ac3c29246df88999/editorOnly"
+        },
+        {
+            "op": "add",
+            "path": "/entities/ac3c29246df88999/properties/0/value/-",
+            "value": "a17d9f555e091c1b"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/c93c8b19d7f583ec/editorOnly"
+        },
+        {
+            "op": "add",
+            "path": "/entities/c93c8b19d7f583ec/properties/1/value/-",
+            "value": "a17d9f555e091c1b"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/c27cc7fbb658eae8/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/b38eaa7f4f2afd32/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/b38eaa7f4f2afd32/properties/0/value/position/y",
+            "value": "LN|-7.7835421562194824"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/b38eaa7f4f2afd32/properties/0/value/position/z",
+            "value": "LN|9.3486652374267578"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/30aa0a2566d4796b/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/65c3aa3b5836f937/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/fffffffffffffffe/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/fffffffffffffffe/entitySubsets/1"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/fffffffffffffffe/entitySubsets/1"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/fffffffffffffffe/entitySubsets/2"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/196bbe91b1d0f8b5/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/bbff96e7f5e1513a/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/195daa905dd8afe0/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/88da1d53b20dec61/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/8364a9f09f012c3c/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/94a27edc53700ad5/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/6d7380726b5e7e43/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/6d7380726b5e7e43/properties/0/value/position/y",
+            "value": "LN|-6.9051251411437988"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/6d7380726b5e7e43/properties/0/value/position/z",
+            "value": "LN|9.3486652374267578"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/5745b42f3559d44e/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/5745b42f3559d44e/properties/0/value/position/y",
+            "value": "LN|7.5142478942871094"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/5745b42f3559d44e/properties/0/value/position/z",
+            "value": "LN|6.9486441612243652"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/e4a5474ae80b5180/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/e82030951ee3ddb7/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/e82030951ee3ddb7/properties/0/value/position/y",
+            "value": "LN|8.1301403045654297"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/e82030951ee3ddb7/properties/0/value/position/z",
+            "value": "LN|9.3486576080322266"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/3e5344914f8ad4fb/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/32c6d665aa35e83d/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/32c6d665aa35e83d/properties/0/value/position/x",
+            "value": "LN|-31.615350723266602"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/32c6d665aa35e83d/properties/0/value/position/z",
+            "value": "LN|9.3486566543579102"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/b42654d024958519/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/b42654d024958519/properties/0/value/position/y",
+            "value": "LN|8.1071357727050781"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/b42654d024958519/properties/0/value/position/z",
+            "value": "LN|9.3486566543579102"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/c6f826a88336d203/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/9a3b11b71e642acf/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/a6c38aad2923001d/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/8154e48d1f0cdb04/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/a0ecaa5393d044e8/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/5fca433e831cdd60/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/78256fd992bdeecc/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/1c628383199c0e6e/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/7464002a0eaecc54/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/84a96453cd1b42cb/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/67fe1201c186aa03/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/7256bf3699794ae5/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/4a36ed6dc338c4df/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/63767d317f545e56/editorOnly"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/63767d317f545e56/properties/0/value/position/y",
+            "value": "LN|-9.6027965545654297"
+        },
+        {
+            "op": "replace",
+            "path": "/entities/63767d317f545e56/properties/0/value/position/z",
+            "value": "LN|9.3486652374267578"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/1581569eea6d05f7/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/d158af44a6410439/editorOnly"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/ee3f3d7a00dc0741/editorOnly"
+        },
+        {
+            "op": "add",
+            "path": "/entities/ee3f3d7a00dc0741/properties/0/value/-",
+            "value": "812ad3a20e791ba4"
+        },
+        {
+            "op": "remove",
+            "path": "/entities/b2e01abd0856de3/editorOnly"
+        },
+        {
+            "op": "add",
+            "path": "/entities/b2e01abd0856de3/properties/1/value/-",
+            "value": "812ad3a20e791ba4"
+        }
+    ]
+}

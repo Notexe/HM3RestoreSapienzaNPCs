@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Make release
+        run: |
+          mkdir HM3RestoreSapienzaNPCs
+          cp manifest.json HM3RestoreSapienzaNPCs/
+          cp -R content HM3RestoreSapienzaNPCs/content
+          zip -r HM3RestoreSapienzaNPCs.framework.zip HM3RestoreSapienzaNPCs
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            HM3RestoreSapienzaNPCs.framework.zip
